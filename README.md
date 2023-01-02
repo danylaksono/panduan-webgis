@@ -1,5 +1,4 @@
-# panduan-webgis
-Panduan pembangunan WebGIS dengan NextJS dan Maplibre
+# Panduan pembangunan WebGIS dengan NextJS dan Maplibre
 
 ## 1. Persiapan dan Instalasi
 

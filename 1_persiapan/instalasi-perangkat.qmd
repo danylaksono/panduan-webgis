@@ -192,6 +192,36 @@ nvm use 18.12.1
 
 ```
 
+## Instalasi Miniconda
+
+### Tentang Miniconda
+Python adalah salah satu bahasa pemrograman [paling populer di dunia](https://octoverse.github.com/2022/top-programming-languages) saat ini. Bahasa Python tergolong mudah dipahami, sehingga mendorong banyak developer membangun aplikasinya pada Python. Meskipun demikian, manajemen environment pada Python terkadang cukup menyulitkan bagi developer pemula. Untuk itu, [Anaconda](https://www.anaconda.com/) dibuat agar para developer dapat menggunakan Python dengan lebih mudah. Versi mini dari Anaconda, [Miniconda](https://docs.conda.io/en/latest/miniconda.html), dibuat untuk memudahkan instalasi paket-paket Pyhton sehingga dapat digunakan bahkan oleh developer pemula.
+
+
+### Instalasi Miniconda pada WSL
+
+Berikut adalah langkah instalasi Miniconda pada WSL:
+
+1. Buka konsol WSL, kemudian ketikkan perintah berikut untuk mengunduh instalasi Miniconda:
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-py310_22.11.1-1-Linux-x86_64.sh
+```
+![](../images/2023-01-02-11-41-18.png)
+
+2. Lakukan instalasi dengan menjalankan file hasil unduhan. 
+```bash
+sh ./Miniconda3-py310_22.11.1-1-Linux-x86_64.sh
+```
+![](../images/2023-01-02-11-41-29.png)
+Tekan `Enter` untuk melanjutkan instalasi
+
+3. Pada pertanyaan yang muncul, jawab dengan mengetikkan `yes`
+![](../images/2023-01-02-11-42-20.png)
+
+Setelah terinstall, pada konsol kita akan muncul tambahan `(base)` yang menunjukkan bahwa kita berada pada environment default miniconda. Selanjutnya kita telah dapat menggunakan perintah-perintah `conda`, misalnya untuk melakukan instalasi paket Python atau membuat _environment_ baru.
+
+
+
 ## Instalasi Docker dan Docker Compose
 
 Pada sub-bab ini, kita akan melakukan instalasi Docker. Meskipun Docker sendiri adalah salah satu perangkat yang paling berguna bagi seorang developer web, modul ini sendiri tidak akan membahas banyak mengenai penggunaannya. Anda akan menjumpai banyak contoh penggunaan perangkat ini nantinya di modul lain.

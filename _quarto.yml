@@ -11,8 +11,8 @@ website:
   # google-analytics: ""
   open-graph: true
   twitter-card: true
-  site-url: https://quarto.org
-  repo-url: https://github.com/quarto-dev/quarto-web
+  site-url: https://www.danylaksono.com/panduan-webgis/
+  repo-url: https://github.com/danylaksono/panduan-webgis
   repo-actions: [issue]
   page-navigation: true
   reader-mode: true
@@ -70,11 +70,11 @@ website:
         href: about.qmd
     right:
       - icon: twitter
-        href: https://twitter.com/quarto_pub
-        aria-label: Quarto Twitter
+        href: https://twitter.com/laksonodany
+        aria-label: Twitter
       - icon: github
-        href: https://github.com/quarto-dev/quarto-cli
-        aria-label: Quarto GitHub    
+        href: https://github.com/danylaksono/panduan-webgis
+        aria-label: GitHub    
       
 
 format:
