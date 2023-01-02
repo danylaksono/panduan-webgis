@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://quarto.org/1_persiapan/git-dan-github.html</loc>
+    <lastmod>2023-01-02T10:28:13.600Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/1_persiapan/index.html</loc>
+    <lastmod>2023-01-02T10:28:14.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/1_persiapan/instalasi-perangkat.html</loc>
+    <lastmod>2023-01-02T10:28:15.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/2_nextjs/index.html</loc>
+    <lastmod>2023-01-02T10:28:15.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/3_maplibre/index.html</loc>
+    <lastmod>2023-01-02T10:28:15.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/about.html</loc>
+    <lastmod>2023-01-02T10:28:16.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quarto.org/index.html</loc>
+    <lastmod>2023-01-02T10:28:16.922Z</lastmod>
+  </url>
+</urlset>
