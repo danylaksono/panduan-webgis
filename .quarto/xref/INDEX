@@ -1,0 +1,23 @@
+{
+  "about.qmd": {
+    "about.html": "73e95581"
+  },
+  "index.qmd": {
+    "index.html": "8c6712a5"
+  },
+  "1_persiapan/index.qmd": {
+    "index.html": "f71bbc46"
+  },
+  "2_nextjs/index.qmd": {
+    "index.html": "aa97adaa"
+  },
+  "3_maplibre/index.qmd": {
+    "index.html": "7c9d94fa"
+  },
+  "1_persiapan/instalasi-perangkat.qmd": {
+    "instalasi-perangkat.html": "837c5b4e"
+  },
+  "1_persiapan/git-dan-github.qmd": {
+    "git-dan-github.html": "0df491ae"
+  }
+}
