@@ -167,12 +167,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/quarto_pub"><i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+    <a class="nav-link" href="https://twitter.com/laksonodany"><i class="bi bi-twitter" role="img" aria-label="Twitter">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/quarto-dev/quarto-cli"><i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+    <a class="nav-link" href="https://github.com/danylaksono/panduan-webgis"><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -301,6 +301,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#apa-itu-nodejs" id="toc-apa-itu-nodejs" class="nav-link" data-scroll-target="#apa-itu-nodejs">Apa itu NodeJS?</a></li>
   <li><a href="#instalasi-nodejs-pada-wsl" id="toc-instalasi-nodejs-pada-wsl" class="nav-link" data-scroll-target="#instalasi-nodejs-pada-wsl">Instalasi NodeJS pada WSL</a></li>
   </ul></li>
+  <li><a href="#instalasi-miniconda" id="toc-instalasi-miniconda" class="nav-link" data-scroll-target="#instalasi-miniconda">Instalasi Miniconda</a>
+  <ul class="collapse">
+  <li><a href="#tentang-miniconda" id="toc-tentang-miniconda" class="nav-link" data-scroll-target="#tentang-miniconda">Tentang Miniconda</a></li>
+  <li><a href="#instalasi-miniconda-pada-wsl" id="toc-instalasi-miniconda-pada-wsl" class="nav-link" data-scroll-target="#instalasi-miniconda-pada-wsl">Instalasi Miniconda pada WSL</a></li>
+  </ul></li>
   <li><a href="#instalasi-docker-dan-docker-compose" id="toc-instalasi-docker-dan-docker-compose" class="nav-link" data-scroll-target="#instalasi-docker-dan-docker-compose">Instalasi Docker dan Docker Compose</a>
   <ul class="collapse">
   <li><a href="#apa-itu-docker" id="toc-apa-itu-docker" class="nav-link" data-scroll-target="#apa-itu-docker">Apa itu Docker?</a></li>
@@ -313,7 +318,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#beberapa-ekstensi-yang-berguna" id="toc-beberapa-ekstensi-yang-berguna" class="nav-link" data-scroll-target="#beberapa-ekstensi-yang-berguna">Beberapa ekstensi yang berguna</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/quarto-dev/quarto-web/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/danylaksono/panduan-webgis/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -502,6 +507,31 @@ Mengapa NodeJS penting dalam pengembangan web saat ini?
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ex">nvm</span> use 18.12.1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
+<section id="instalasi-miniconda" class="level2">
+<h2 class="anchored" data-anchor-id="instalasi-miniconda">Instalasi Miniconda</h2>
+<section id="tentang-miniconda" class="level3">
+<h3 class="anchored" data-anchor-id="tentang-miniconda">Tentang Miniconda</h3>
+<p>Python adalah salah satu bahasa pemrograman <a href="https://octoverse.github.com/2022/top-programming-languages">paling populer di dunia</a> saat ini. Bahasa Python tergolong mudah dipahami, sehingga mendorong banyak developer membangun aplikasinya pada Python. Meskipun demikian, manajemen environment pada Python terkadang cukup menyulitkan bagi developer pemula. Untuk itu, <a href="https://www.anaconda.com/">Anaconda</a> dibuat agar para developer dapat menggunakan Python dengan lebih mudah. Versi mini dari Anaconda, <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>, dibuat untuk memudahkan instalasi paket-paket Pyhton sehingga dapat digunakan bahkan oleh developer pemula.</p>
+</section>
+<section id="instalasi-miniconda-pada-wsl" class="level3">
+<h3 class="anchored" data-anchor-id="instalasi-miniconda-pada-wsl">Instalasi Miniconda pada WSL</h3>
+<p>Berikut adalah langkah instalasi Miniconda pada WSL:</p>
+<ol type="1">
+<li>Buka konsol WSL, kemudian ketikkan perintah berikut untuk mengunduh instalasi Miniconda:</li>
+</ol>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> https://repo.anaconda.com/miniconda/Miniconda3-py310_22.11.1-1-Linux-x86_64.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><img src="../images/2023-01-02-11-41-18.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Lakukan instalasi dengan menjalankan file hasil unduhan.</li>
+</ol>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sh</span> ./Miniconda3-py310_22.11.1-1-Linux-x86_64.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><img src="../images/2023-01-02-11-41-29.png" class="img-fluid"> Tekan <code>Enter</code> untuk melanjutkan instalasi</p>
+<ol start="3" type="1">
+<li>Pada pertanyaan yang muncul, jawab dengan mengetikkan <code>yes</code> <img src="../images/2023-01-02-11-42-20.png" class="img-fluid"></li>
+</ol>
+<p>Setelah terinstall, pada konsol kita akan muncul tambahan <code>(base)</code> yang menunjukkan bahwa kita berada pada environment default miniconda. Selanjutnya kita telah dapat menggunakan perintah-perintah <code>conda</code>, misalnya untuk melakukan instalasi paket Python atau membuat <em>environment</em> baru.</p>
+</section>
+</section>
 <section id="instalasi-docker-dan-docker-compose" class="level2">
 <h2 class="anchored" data-anchor-id="instalasi-docker-dan-docker-compose">Instalasi Docker dan Docker Compose</h2>
 <p>Pada sub-bab ini, kita akan melakukan instalasi Docker. Meskipun Docker sendiri adalah salah satu perangkat yang paling berguna bagi seorang developer web, modul ini sendiri tidak akan membahas banyak mengenai penggunaannya. Anda akan menjumpai banyak contoh penggunaan perangkat ini nantinya di modul lain.</p>
@@ -528,11 +558,11 @@ Mengapa NodeJS penting dalam pengembangan web saat ini?
 <p>Apabila jendela ini muncul, Anda dapat menutupnya. Docker akan tetap berjalan sebagai sebuah <em>service</em> di Windows.</p>
 <pre><code>![](../images/2022-12-27-21-09-09.png)</code></pre>
 <p>Untuk memastikan bahwa Docker telah terinstall, buka konsol WSL, kemudian gunakan perintah berikut:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run hello-world</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run hello-world</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Perintah di atas akan memanggil kontainer aplikasi <code>hello-world</code> dari <a href="https://hub.docker.com/">Docker Hub</a>, kemudian menjalankannya pada WSL. Apabila instalasi berjalan tanpa kendala, hasil berikut akan muncul di konsol WSL Anda:</p>
 <p><img src="../images/2022-12-27-21-06-27.png" class="img-fluid"></p>
 <p>Diantara paket Docker yang terinstall adalah perintah <code>Docker Compose</code> yang dapat digunakan untuk membuat paket aplikasi agar lebih mudah dijalankan. Cek bahwa perintah ini telah terinstall dengan sempurna menggunakan perintah berikut:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> compose <span class="at">-v</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> compose <span class="at">-v</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Hasilnya adalah seperti gambar berikut:</p>
 <p><img src="../images/2022-12-27-23-15-43.png" class="img-fluid"></p>
 <p>Setelah kedua perintah tersebut berhasil dijalankan dengan baik, kita siap untuk menggunakannya pada beberapa latihan di modul ini.</p>
@@ -581,8 +611,8 @@ Mengapa NodeJS penting dalam pengembangan web saat ini?
 <p><img src="../images/2022-12-28-00-22-38.png" class="img-fluid"></p></li>
 </ol>
 <p>Ingat bahwa ini akan membuka VSCode di lingkungan Windows. Untuk membuka VSCode dari lingkungan WSL, kita dapat menggunakan perintah berikut pada folder yang akan dibuka:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Perhatikan tanda titik setelah 'code'. Titik ini berarti 'buka vscode di lokasi ini'</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Perhatikan tanda titik setelah 'code'. Titik ini berarti 'buka vscode di lokasi ini'</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>VSCode juga dapat diinstall dari Microsoft Store:</p>
 <p><img src="../images/2022-12-28-00-12-36.png" class="img-fluid"></p>
 </section>
